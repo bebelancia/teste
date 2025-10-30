@@ -1,39 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
     <script src="public/js/main.js" defer></script>
-
 </head>
 
-    <body>
-        <section class="hero">
-            <nav class="nav">
-                <a href="#" class="btn">Menu</a>
-                <div>
-                </div>
-            </nav>
-        </section>
-
-        <div class="login-box">
-            <h2>Login</h2>
-            <form>
-                <input type="email" placeholder="Email" required>
-                <input type="password" placeholder="Password" required>
-
-                <div class="options">
-                    <a href="#">Esqueceu sua senha?</a>
-                </div>
-
-                <button type="submit">Login</button>
-            </form>
-            <div class="registro">
-                Não possui uma conta? <a href="#">Registre-se</a>
+<body>
+    <section class="hero">
+        <nav class="nav">
+            <a href="#" class="btn">Menu</a>
+            <div>
             </div>
+        </nav>
+    </section>
+
+    <div class="login-box">
+        <h2>Login</h2>
+        <form>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+
+            <div class="options">
+                <a href="#">Esqueceu sua senha?</a>
+            </div>
+
+            <button type="submit">Login</button>
+        </form>
+        <div class="registro">
+            Não possui uma conta? <a href="#">Registre-se</a>
         </div>
-    </body>
+    </div>
+</body>
 </html>
 
